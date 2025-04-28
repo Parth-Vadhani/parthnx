@@ -1,0 +1,14 @@
+/* Tailwind's default transition behavior */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth Transition for Dark Mode */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Mobile Menu Slide-In */
+.md\\:hidden {
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
